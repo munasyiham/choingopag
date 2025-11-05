@@ -1,0 +1,260 @@
+<!-- /*
+* Bootstrap 5
+* Template Name: Furni
+* Template Author: Untree.co
+* Template URI: https://untree.co/
+* License: https://creativecommons.org/licenses/by/3.0/
+*/ -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Choi.std">
+  <link rel="shortcut icon" href="ngopag.png">
+
+  <meta name="description" content="" />
+  <meta name="keywords" content="bootstrap, bootstrap4" />
+
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+		<link href="css/tiny-slider.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<title>NgoPag by Choi.std </title>
+		
+		<style>
+			/* Animasi Fade In */
+			@keyframes fadeIn {
+				from {
+					opacity: 0;
+					transform: translateY(30px);
+				}
+				to {
+					opacity: 1;
+					transform: translateY(0);
+				}
+			}
+			
+			/* Animasi Scale Up */
+			@keyframes scaleUp {
+				from {
+					opacity: 0;
+					transform: scale(0.8);
+				}
+				to {
+					opacity: 1;
+					transform: scale(1);
+				}
+			}
+			
+			.animate-fade-in {
+				animation: fadeIn 1s ease-out;
+			}
+			
+			.animate-scale-up {
+				animation: scaleUp 0.8s ease-out;
+			}
+			
+			.product-item {
+				transition: transform 0.3s ease, box-shadow 0.3s ease;
+			}
+			
+			.product-item:hover {
+				transform: translateY(-10px);
+				box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+			}
+			
+			.product-item img {
+				transition: transform 0.3s ease;
+			}
+			
+			.product-item:hover img {
+				transform: scale(1.05);
+			}
+			
+			.btn {
+				transition: all 0.3s ease;
+			}
+			
+			.btn:hover {
+				transform: translateY(-3px);
+				box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+			}
+			
+			.btn-success {
+				background: #25D366;
+				border-color: #25D366;
+			}
+			
+			.btn-success:hover {
+				background: #20BA5A;
+				border-color: #20BA5A;
+			}
+		</style>
+	</head>
+	<body>
+
+		<!-- Start Header/Navigation -->
+		<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
+
+			<div class="container">
+				<a class="navbar-brand" href="index.html">NgoPag<span>.co</span></a>
+
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarsFurni">
+					<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+						<li class="nav-item ">
+							<a class="nav-link" href="index.html">Beranda</a>
+						</li>
+						<li class="active"><a class="nav-link" href="shop.html">Katalog</a></li>
+						<li><a class="nav-link" href="about.html">Tentang Kami</a></li>
+						<li><a class="nav-link" href="contact.html">Kontak Kami</a></li>
+					</ul>
+
+					<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+					</ul>
+				</div>
+			</div>
+				
+		</nav>
+		<!-- End Header/Navigation -->
+
+		<!-- Start Hero Section -->
+			<div class="hero">
+				<div class="container">
+					<div class="row justify-content-between">
+						<div class="col-lg-5">
+							<div class="intro-excerpt animate-fade-in">
+								<h1>Shop</h1>
+								<p class="mb-4">Temukan koleksi kopi specialty pilihan kami. Setiap produk dipilih dengan cermat untuk memberikan pengalaman kopi terbaik untuk Anda.</p>
+							</div>
+						</div>
+						<div class="col-lg-7">
+							<div class="hero-img-wrap animate-scale-up">
+								<img src="images/KoPag.png" class="img-fluid">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- End Hero Section -->
+
+		
+
+		<div class="untree_co-section product-section before-footer-section">
+		    <div class="container">
+		      	<div class="row">
+					
+					<!-- Start Column 1 -->
+					<div class="col-12 col-md-4 col-lg-3 mb-5 animate-fade-in">
+						<div class="product-item">
+							<img src="images/Produk/p1.jpeg" class="img-fluid product-thumbnail">
+							<h3 class="product-title">Gayo Wine Specialty 200g</h3>
+							<strong class="product-price">Rp. 89.000</strong>
+							<br>
+							<a href="https://wa.me/6287829383526?text=Halo,%20saya%20tertarik%20dengan%20Gayo%20Wine%20Specialty%20200g%20-%20Rp.%2089.000" target="_blank" class="btn btn-success btn-sm mt-3">
+								<i class="fab fa-whatsapp"></i> Pesan via WhatsApp
+							</a>
+						</div>
+					</div>
+					<!-- End Column 1 -->
+
+		      		<!-- Start Column 2 -->
+					<div class="col-12 col-md-4 col-lg-3 mb-5 animate-fade-in">
+						<div class="product-item">
+							<img src="images/Produk/p2.jpeg" class="img-fluid product-thumbnail">
+							<h3 class="product-title">Watermelon Magic 1Kg</h3>
+							<strong class="product-price">Rp. 423.000</strong>
+							<br>
+							<a href="https://wa.me/6287829383526?text=Halo,%20saya%20tertarik%20dengan%20Watermelon%20Magic%201Kg%20-%20Rp.%20423.000" target="_blank" class="btn btn-success btn-sm mt-3">
+								<i class="fab fa-whatsapp"></i> Pesan via WhatsApp
+							</a>
+						</div>
+					</div>
+					<!-- End Column 2 -->
+
+					<!-- Start Column 3 -->
+					<div class="col-12 col-md-4 col-lg-3 mb-5 animate-fade-in">
+						<div class="product-item">
+							<img src="images/Produk/p3.jpeg" class="img-fluid product-thumbnail">
+							<h3 class="product-title">Mango Macarons 200g</h3>
+							<strong class="product-price">Rp. 89.000</strong>
+							<br>
+							<a href="https://wa.me/6287829383526?text=Halo,%20saya%20tertarik%20dengan%20Mango%20Macarons%20200g%20-%20Rp.%2089.000" target="_blank" class="btn btn-success btn-sm mt-3">
+								<i class="fab fa-whatsapp"></i> Pesan via WhatsApp
+							</a>
+						</div>
+					</div>
+					<!-- End Column 3 -->
+
+					<!-- Start Column 4 -->
+					<div class="col-12 col-md-4 col-lg-3 mb-5 animate-fade-in">
+						<div class="product-item">
+							<img src="images/Produk/p4.jpeg" class="img-fluid product-thumbnail">
+							<h3 class="product-title">Strawberry Sweet Plasa 200g</h3>
+							<strong class="product-price">Rp. 89.000</strong>
+							<br>
+							<a href="https://wa.me/6287829383526?text=Halo,%20saya%20tertarik%20dengan%20Strawberry%20Sweet%20Plasa%20200g%20-%20Rp.%2089.000" target="_blank" class="btn btn-success btn-sm mt-3">
+								<i class="fab fa-whatsapp"></i> Pesan via WhatsApp
+							</a>
+						</div>
+					</div>
+					<!-- End Column 4 -->
+
+					<!-- Start Column 5 -->
+					<div class="col-12 col-md-4 col-lg-3 mb-5 animate-fade-in">
+						<div class="product-item">
+							<img src="images/Produk/p5.jpeg" class="img-fluid product-thumbnail">
+							<h3 class="product-title">Vanilla Apple Fuji 200g</h3>
+							<strong class="product-price">Rp. 89.000</strong>
+							<br>
+							<a href="https://wa.me/6287829383526?text=Halo,%20saya%20tertarik%20dengan%20Vanilla%20Apple%20Fuji%20200g%20-%20Rp.%2089.000" target="_blank" class="btn btn-success btn-sm mt-3">
+								<i class="fab fa-whatsapp"></i> Pesan via WhatsApp
+							</a>
+						</div>
+					</div>
+					<!-- End Column 5 -->
+
+				</div>
+			</div>
+		</div>
+
+		<!-- Start Footer Section -->
+		<footer class="footer-section">
+			<div class="container relative">
+
+				<div class="sofa-img">
+					<img src="images/kopibg.png" alt="Image" class="img-fluid">
+				</div>
+
+				<div class="row">
+					<div class="col-lg-8">
+						<div class="subscription-form">
+							<h3 class="d-flex align-items-center"><span class="me-1"><img src="images/envelope-outline.svg" alt="Image" class="img-fluid"></span><span>Hubungi Kami Melalui WhatsApp</span></h3>
+
+							<div class="row g-3">
+								<div class="col-auto">
+									<a href="https://wa.me/6287829383526" target="_blank" class="btn btn-primary">
+										<i class="fab fa-whatsapp me-2"></i> Chat WhatsApp
+									</a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="row g-5 mb-5">
+					<div class="col-lg-4">
+						<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">NgoPag.</a></div>
+						<p class="mb-4">Satu cangkir, ribuan kemungkinan. Kopi memberi kita lebih dari sekadar rasa kafein di dalamnya meningkatkan energi, fokus, dan produktivitas. Mulai hari dengan kopi, selesaikan dengan pencapaian</p>
+					</div>
+				</div>
+
+			</div>
+		</footer>
+		<!-- End Footer Section -->
